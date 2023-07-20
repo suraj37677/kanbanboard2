@@ -1,0 +1,123 @@
+.descriptionConatiner {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    /* min-height: 10rem; */
+    max-height:fit-content;
+    height: auto;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .header p {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .header p:hover {
+    background-color: rgb(189, 189, 189);
+  }
+  .content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+  }
+  .content textArea{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.5rem; 
+    margin-left: 2.5rem;
+    outline-color: #0c66E4;
+    resize: none;
+  }
+  .darkContent textArea{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+  }
+  
+  .editorBox {
+    width: 100%;
+    padding: 0.5rem 0;
+    padding-left: 1rem; 
+    margin-left: 2rem;
+    border-radius: 5px;
+    box-shadow: rgba(22, 22, 22, 0.2) 2px 2px 8px 0px;
+    cursor: pointer;
+  }
+.editorBox:hover{
+  background-color: rgb(161, 161, 161);
+}
+  .bottomSection {
+    margin-left: 2.8rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+  }
+  .bottomSection span{
+    display:flex;
+    gap:1rem;
+    margin-left: 2rem;
+  }
+  .bottomSection p {
+    font-size: 0.8rem;
+    color: #0c66E4;
+    cursor: pointer;
+  }
+  .btnContainer {
+    /* margin-left: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .saveBtn {
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0c66E4;
+    color: white;
+    cursor: pointer;
+  }
+  .saveBtn:hover{
+    background-color: #0e53b3;
+
+  }
+  .cancelBtn {
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(168, 170, 170);
+    cursor: pointer;
+  }
+  .description{
+    margin-left: 2rem;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .editBtn{
+    border: none;
+    height: 1.2rem;
+    width: 3rem;
+    border-radius: 4px;
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+  }
+  .editBtn:hover{
+    background-color: rgb(161, 161, 161);
+
+  }
